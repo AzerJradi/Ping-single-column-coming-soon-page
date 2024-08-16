@@ -1,0 +1,147 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.logo {
+    margin-left: 45%;
+}
+.div1 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    width: 55%;
+    margin-left: 22.5%;
+}
+.p1 {
+    color: #989898;
+}
+.p2 {
+    margin-left: 2%;
+    font-weight: bolder;
+}
+.des {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #2B2E31;
+    margin-left: 35%;
+    margin-top: -25px;
+}
+.div2 {
+    width: 110%;
+    margin-bottom: 50px;
+}
+input{
+    width: 60%;
+    padding: 10px 5%;
+    margin-left: -2.5%;
+    border-radius: 20px;
+    border: 1px #E9EDF7 solid;
+    color: #E9EDF7;
+    background: white;
+}
+button{
+    width: 25%;
+    padding: 10px;
+    background: #4D7BF3;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.BigImg {
+
+}
+.socialMedia {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+#socialMedia{
+    border: 1px #E9EDF7 solid;
+    background: white;
+    padding: 2px;
+    border-radius: 100%;
+}
+.fcb {
+
+}
+.twtr {
+    margin: 0 1%;
+}
+.ig {
+
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    *{
+        background: white;
+    }
+    .body {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+    
+    .div1 {
+        font-size: 20px;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+    
+    .des {
+        font-size: 14px;
+        margin-left: 12.5%;
+        margin-top: 0;
+    }
+    
+    input {
+        width: 70%;
+        margin-left: 0;
+        padding: 10px 10%;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        width: 90%;
+    }
+    #socialMedia{
+        border: 1px #E9EDF7 solid;
+        background: white;
+        padding: 2px;
+        border-radius: 100%;
+        margin-top: 50px;
+        width: 7.5%;
+    }
+    .twtr{
+        margin: 0 5%;
+    }
+    .copyright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        margin-top: 15px;
+        color: #989898;
+    }
+    .attribution{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+    }
+}
